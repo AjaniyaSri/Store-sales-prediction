@@ -160,7 +160,7 @@ if predict_clicked:
     if prediction < avg_sales:
         st.markdown(
         """
-        <div style="font-size:20px; ">
+        <div style="font-size:18px; ">
         <ul>
             <li>Estimated sales are <b>below</b> the dataset average.</li>
             <li>High discounts or low quantity may reduce sales.</li>
@@ -173,7 +173,7 @@ if predict_clicked:
     else:
         st.markdown(
         """
-        <div style="font-size:20px; ">
+        <div style="font-size:18px; ">
         <ul>
             <li>Estimated sales are <b>above</b> the dataset average.</li>
             <li>This order configuration looks stronger than typical orders.</li>
@@ -183,11 +183,10 @@ if predict_clicked:
         """,
         unsafe_allow_html=True
         )
-
+        st.subheader("💡 General Sales Optimization Tips")
         st.markdown(
         """
-        <div style="font-size:20px; margin-top:1rem;">
-        <strong>💡 General Sales Optimization Tips:</strong>
+        <div style="font-size:18px; margin-top:1rem;">
         <ul>
             <li>Reduce discounts where possible</li>
             <li>Bundle products to increase quantity</li>
