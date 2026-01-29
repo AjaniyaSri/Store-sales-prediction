@@ -205,7 +205,7 @@ else:
 st.write("---")
 st.markdown(
     """
-    <div style="font-size:20px; ">
+    <div style="font-size:15px; ">
     "Built with ❤️ using **Python, Streamlit, and Scikit-learn**  \nProject by: Ajani"
     </div>
     """,
