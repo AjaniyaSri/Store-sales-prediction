@@ -1,5 +1,4 @@
-```markdown
-# 🛒 Superstore Sales Analysis & Prediction
+## 🛒 Superstore Sales Analysis & Prediction
 
 A complete data analytics and machine learning project that analyzes historical
 Superstore sales data, predicts future sales using a trained ML model, and
